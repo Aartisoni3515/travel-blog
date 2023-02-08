@@ -44,19 +44,20 @@ function Contact() {
             </div>
 
             <div className="icons">
-              <p style={{ textAlign: "center" }}>
-                Follow <span style={{ color: "blue" }}> Us</span>{" "}
+              <p style={{ textAlign: "center", fontSize:"30px" , color:"white" }}>
+                Follow <span style={{ color: "blue"}}> Us</span>{" "}
               </p>
+              <div className="lists" >
               <ul
                 className="list-items"
                 style={{
                   marginTop: "50px",
                   textAlign: "center",
-                  marginRight: "70px",
+                  marginTop:"100px"
                 }}
                 data-aos="fade-right"
               >
-                <li>
+                <li className="main1" style={{marginLeft:"-60px"}}  >
                   <BsInstagram />
                 </li>
                 <li>
@@ -65,28 +66,26 @@ function Contact() {
                 <li>
                   <BsFacebook />
                 </li>
-                <li>
+                <li className="main4" style={{marginRight:"150px"}} >
                   <BsTwitter />
                 </li>
               </ul>
+              </div>
             </div>
-            <p style={{ marginTop: "80px", textAlign: "center" }}>
-              © 2012–2023 BucketListly Blog. All rights reserved. Made with ❤ by
-              The Design
-            </p>
+          
           </div>
 
           <div className="contact-2" data-aos="fade-left">
             <h2 className="heading">Contact US</h2>
-            <form className="form">
-              <input
+            <form className="form"  style={{textAlign:"left", float:"left", margin:"0 auto"}} >
+              <input className="inputs"
                 type="text"
                 name="name"
                 placeholder="Enter Your Name"
                 onChange={handleChange}
               />
               <br />
-              <input
+              <input className="inputs"
                 type="text"
                 name="email"
                 id=""
@@ -94,7 +93,7 @@ function Contact() {
                 onChange={handleChange}
               />
               <br />
-              <input
+              <input className="inputs"
                 type="text"
                 name="message"
                 id=""
@@ -108,6 +107,10 @@ function Contact() {
             </form>
           </div>
         </div>
+        <p className="last" style={{ marginTop: "80px", textAlign: "center" }}>
+              © 2012–2023 BucketListly Blog. All rights reserved. Made with ❤ by
+              The Design
+            </p>
       </div>
     </>
   );
