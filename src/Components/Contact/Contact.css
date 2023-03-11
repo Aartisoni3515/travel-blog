@@ -13,7 +13,7 @@
 }
 .card {
   text-align: center;
-  margin: auto 100px;
+  /* margin: auto 100px; */
 }
 .item {
   margin-top: 30px;
@@ -78,38 +78,39 @@
 
   .card {
     text-align: center;
-    margin: auto 100px;
   }
   .item {
     margin-top: 30px;
-    line-height: 40px;
-    text-align: left;
-    margin-right: 100px;
+    line-height: 30px;
     color: white;
   }
-  .item p{
-margin-right: 200px;
 
-}
+  .item p {
+    text-align: center;
+    padding-right: 100px;
 
-.item h2{
-    text-align: left;
   }
-  
+
+  .item h2 {
+    text-align: center;
+    padding-right: 100px;
+  }
+
   .icons p {
-    width: 50%;
-    text-align: left;
-    margin-right: 200px;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 60px;
   }
-
-  .contact-2{
-margin-right: 400px;
-}
+  .list-items{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+  }
 
   .icons {
-    margin-top: 200px;
-    text-align: left;
-    padding-right: 200px;
+    /* margin-top: 200px; */
+    text-align: center;
   }
 
   .contact-2 {
@@ -122,12 +123,16 @@ margin-right: 400px;
   }
   .form input {
     padding: 18px 130px 19px 29px;
-    margin: 75px 12px 0px 38px;
     border-radius: 30px;
-}
-.heading{
+  }
+  .heading {
     font-size: 35px;
-}
+    text-align: center;
+    padding-right: 60px;
+  }
+  .btn-1 {
+    /* text-align: left; */
+  }
   .btn {
     text-align: center;
     margin-left: 130px;
@@ -152,9 +157,9 @@ margin-right: 400px;
     background-position: -100% 0;
   }
   .last {
-    /* width: 70px; */
+    width: 70%;
+    text-align: center;
+    padding-left: 66px;
     margin-bottom: 30px;
-    padding-right: 374px;
-
   }
 }

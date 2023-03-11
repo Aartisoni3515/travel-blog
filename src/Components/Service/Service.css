@@ -12,10 +12,9 @@ h2 {
 .service-main2{
     display: flex;
     justify-content: space-evenly;
-    height: 60vh;
+    height: 100vh;
 }
 .service-main2 .cards{
-    height: 300px;
     width: 450px;
     border: 2px solid gray;
     border-radius: 10px;

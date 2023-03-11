@@ -2,20 +2,17 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Urbanist:wght@300;400&display=swap");
 * {
-  margin: auto;
   box-sizing: border-box;
-  
 }
 
 .navbar {
   overflow: hidden;
   width: 100%;
-  height: 50px;
+  /* height: 50px; */
   margin-top: 0;
   display: flex;
   justify-content: space-around;
   /* position: absolute; */
-
 }
 .nav-img {
   font-family: "Caveat", cursive;
@@ -33,11 +30,9 @@
   border-radius: 50px;
 }
 
-
-
 .nav-list {
   width: 50%;
-  height: 60px;
+  height: auto;
   list-style: none;
   text-decoration: none;
   text-align: center;
@@ -57,54 +52,57 @@
   font-size: 20px;
   border-radius: 30px;
   margin: 5px 0px;
-  width: 100%;
-  height: 100%;
+
   cursor: pointer;
-  display:inline-block;
-  background:#fff;
-  position:relative;
-  padding:2px 5px;
-  background:-webkit-gradient(linear, left top, right top, color-stop(50%, #fff), color-stop(50%, #000));
-  background:-webkit-linear-gradient(left, #fff 50%, #000 50%);
-  background:-moz-linear-gradient(left, #fff 50%, #000 50%);
-  background:linear-gradient(to right, #fff 50%, #000 50%);
-  background-size:200% 100%;
-  background-position:0 0;
-  -webkit-transition:background-position .3s ease-out;
-  -moz-transition:background-position .3s ease-out;
-  transition:background-position .3s ease-out;
+  display: inline-block;
+  background: #fff;
+  position: relative;
+  padding: 2px 5px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(50%, #fff),
+    color-stop(50%, #000)
+  );
+  background: -webkit-linear-gradient(left, #fff 50%, #000 50%);
+  background: -moz-linear-gradient(left, #fff 50%, #000 50%);
+  background: linear-gradient(to right, #fff 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: 0 0;
+  -webkit-transition: background-position 0.3s ease-out;
+  -moz-transition: background-position 0.3s ease-out;
+  transition: background-position 0.3s ease-out;
 }
 .nav-list li:hover {
-  background-position:-100% 0;
+  background-position: -100% 0;
   color: white;
 }
 
-a:hover{
-  background-position:-100% 0;
+a:hover {
+  background-position: -100% 0;
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 800px) {
+  .navbar {
+    overflow: hidden;
+    width: 100%;
+    /* height: 50px; */
+    display: flex;
+    justify-content: space-around;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .navbar {
     width: 100%;
-    height: 50px;
-    margin-top: 0;
+    /* height: 50px; */
+    margin-top: -15px;
   }
 
   .nav-list {
     width: 100%;
-    height: 60px;
     list-style: none;
     text-decoration: none;
     text-align: center;

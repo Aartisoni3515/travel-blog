@@ -34,7 +34,9 @@ const Navbar = () => {
             <Link to="/Contact">Contact</Link>{" "}
           </li>
         </ul>
+
       </div>
+    <hr style={{width:"80%"}} />
     </>
   );
 };

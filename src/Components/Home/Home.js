@@ -19,13 +19,13 @@ const Home = () => {
 
       <div className="home-body">
       <div className="para">
-        <strong style={{marginLeft:"150px", marginBottom:"10px"}} >by peter R</strong> 
-        <p style={{marginLeft:"-20px", marginBottom:"10px"}}  >Updated On December 29, 2022 |<strong> Comment</strong>
+        <strong style={{marginLeft:"30px" , paddingBottom:"0px"}} >by peter R</strong> 
+        <p style={{ marginRight:"10px"}}  >Updated On December 29, 2022 |<strong> Comment</strong>
         
         </p>
         
       </div>
-        <hr style={{ width: "80%" }} />
+        <hr style={{ width: "100%" }} />
      
         <div className="body-content"  data-aos="fade-top">
           <div className="home-content">
@@ -69,7 +69,7 @@ const Home = () => {
           <div className="home-content2"  data-aos="fade-bottom" >
             <img src={auth} alt="" />
             <hr />
-            <p style={{marginTop:"20px" , textAlign: "justify", lineHeight:"30px"}} >
+            <p className="para-2" style={{marginTop:"20px" , textAlign: "justify", lineHeight:"30px"}} >
               I’m Pete R., a solo traveler, a travel blogger,  and a third-world
               passport holder from Thailand with over 8 years of travel
               experiences, ready to share them with you. Learn more about me.

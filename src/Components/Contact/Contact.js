@@ -25,10 +25,10 @@ function Contact() {
     <>
       <div className="contact-content">
         <div className="container-1">
-          <div className="card" data-aos="fade-right">
+          <div className="card">
             <div className="item">
               <span>
-              <h2>Location</h2>
+                <h2>Location</h2>
               </span>
               <p> Johari Bazar Delhi</p> <br />
               <p>
@@ -44,48 +44,59 @@ function Contact() {
             </div>
 
             <div className="icons">
-              <p style={{ textAlign: "center", fontSize:"30px" , color:"white" }}>
-                Follow <span style={{ color: "blue"}}> Us</span>{" "}
-              </p>
-              <div className="lists" >
-              <ul
-                className="list-items"
+              <p
                 style={{
-                  marginTop: "50px",
                   textAlign: "center",
-                  marginTop:"100px"
+                  fontSize: "30px",
+                  color: "white",
                 }}
-                data-aos="fade-right"
               >
-                <li className="main1" style={{marginLeft:"-60px"}}  >
-                  <BsInstagram />
-                </li>
-                <li>
-                  <BsYoutube />
-                </li>
-                <li>
-                  <BsFacebook />
-                </li>
-                <li className="main4" style={{marginRight:"150px"}} >
-                  <BsTwitter />
-                </li>
-              </ul>
+                Follow <span style={{ color: "blue" }}> Us</span>{" "}
+              </p>
+              {/* <button className="btn-1" >Follow <span style={{ color: "blue" }}> Us</span></button> */}
+              <div className="lists">
+                <ul
+                  className="list-items"
+                  style={{
+                    // marginTop: "50px",
+                    textAlign: "center",
+                    marginTop: "100px",
+                  }}
+                  data-aos="fade-right"
+                >
+                  <li className="main1">
+                    <BsInstagram />
+                  </li>
+                  <li>
+                    <BsYoutube />
+                  </li>
+                  <li>
+                    <BsFacebook />
+                  </li>
+                  <li className="main4" style={{ marginRight: "160px" }}>
+                    <BsTwitter />
+                  </li>
+                </ul>
               </div>
             </div>
-          
           </div>
 
-          <div className="contact-2" data-aos="fade-left">
+          <div className="contact-2">
             <h2 className="heading">Contact US</h2>
-            <form className="form"  style={{textAlign:"left", float:"left", margin:"0 auto"}} >
-              <input className="inputs"
+            <form
+              className="form"
+              style={{ textAlign: "left", float: "left", margin: "0 auto" }}
+            >
+              <input
+                className="inputs"
                 type="text"
                 name="name"
                 placeholder="Enter Your Name"
                 onChange={handleChange}
               />
               <br />
-              <input className="inputs"
+              <input
+                className="inputs"
                 type="text"
                 name="email"
                 id=""
@@ -93,7 +104,8 @@ function Contact() {
                 onChange={handleChange}
               />
               <br />
-              <input className="inputs"
+              <input
+                className="inputs"
                 type="text"
                 name="message"
                 id=""
@@ -108,9 +120,8 @@ function Contact() {
           </div>
         </div>
         <p className="last" style={{ marginTop: "80px", textAlign: "center" }}>
-              © 2012–2023 BucketListly Blog. All rights reserved. Made with ❤ by
-              The Design
-            </p>
+          © 2012–2023 BucketListly Blog. All rights reserved. Made with ❤
+        </p>
       </div>
     </>
   );

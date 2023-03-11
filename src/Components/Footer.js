@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
         <div className="footer-section3"  data-aos="fade-top">
           <div className="icons">
-            <p style={{ textAlign: "center" }}>
+            <p  className="col-2" style={{ textAlign: "center" }}>
               stay <span style={{ color: "blue" }}> connected</span>{" "}
             </p>
             <ul className="list-items" style={{marginTop:"30px" , textAlign:"center" , marginRight:"60px"}}  data-aos="fade-right">
@@ -87,7 +87,7 @@ const Footer = () => {
           </div>
         </div>
   <hr style={{width:"80%" }} />
-        <div style={{textAlign:"center" , marginTop:"20px"}} className="footer-section4">
+        <div style={{textAlign:"center" , marginTop:"150px"}} className="footer-section4">
         <p>Contact Us</p>
         <p style={{textAlign:"center" , marginTop:"10px" , }}>Phone- 14144567879</p>
         <p style={{textAlign:"center" , marginTop:"10px"}} >Email- user@gmail.com</p>
